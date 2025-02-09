@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = "22660802"
+API_HASH = "fec849af712bc23ab5f18277b1592d2e"
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = "BOT_TOKEN"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://AniReal123:AniReal123@anireal123.wqnsp.mongodb.net/?retryWrites=true&w=majority&appName=AniReal123"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = "-1002265567113"
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = "6069621485"
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/rishabhops/alice",
+    "",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
