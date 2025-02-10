@@ -1,9 +1,9 @@
-import asyncio
-from bot import Bot  # Ensure you have a correct import
+from bot import Bot  # Ensure this import is correct
 
 bot = Bot()
+bot.run()
 
-async def main():
-    await bot.run()  # Ensure 'run()' is an async function
-
-asyncio.run(main())
+# Keep the bot running
+import time
+while True:
+    time.sleep(10)
